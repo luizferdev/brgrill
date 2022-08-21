@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black    ;
+    margin: 0;
+    padding: 0;
+    font-family: 'calistoga';
+}
+
+#menu {
+    background: #F2D022;
+    border:  red 0px;
+    height: 60px;
+}
+
+#menu > a:hover {
+
+}
+
+.comprar {
+    display: inline-block;
+    border: ed 1px;
+    width: 260px;
+    height: 42px;
+    left: 688px;
+    top: 2402px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    border:  red 0px;
+    margin-left: 36%;
+    margin-top: 0;
+}
+
+li {
+    margin-right: 15px;
+    margin-top: 18px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'calistoga';
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'calistoga';
+}
+
+@font-face {
+    font-family: calistoga;
+    src: url(Fonte/Calistoga-Regular.ttf);
+}
+
+#endereco-menu{
+    background-color: white; 
+    border:  black 0px;
+    color: black;
+    border:  red 1px;
+}
+
+#endereco {
+    border:  red 1px;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+#brgrill {
+    padding: 20px;
+    border:  red 1px;
+    text-align: center;
+    color: white;
+   
+}
+
+strong {
+    color: #F2D022;
+}
+
+#pai-br {
+    height: 750px;
+    background-image: url(./Imagens/Screenshot_5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2100px;
+}
+
+#flex-grill {
+    display: flex;
+    justify-content: space-between;
+    border:  ed 1px;
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#churras {
+    width: 500px;
+    height: 100%;
+    border-radius: 60px;
+}
+
+#adquira {
+    color: white;
+    width: 587px;
+    height: 166px;
+    border:  red 1px;
+    margin: 0;
+    margin-top: 150px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 47px;
+}
+
+#brgrill2 {
+    margin: 0;
+    width: 541px;
+    left: 100px;
+    top: 584px;
+    border:  red 1px;
+    margin-bottom: 20px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+#loja {
+    margin: 0;
+    border:  red  1px;
+    width: 587px;
+    left: 100px;
+    top: 650px;
+
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+#produto {
+    margin: 0;
+    width: 321px;
+    height: 86px;
+    border-radius: 30px;
+    font-family: 'calistoga';
+    font-size: 15px;
+    background-color: #F2D022;
+}
+
+#produto:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: white solid 1px;
+
+}
+
+#flex-grill2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#caracteristicas {
+    border:  red 1px;
+    height: 350px;
+    background: black;
+}
+
+#carac {
+    border: ed 1px;
+    margin-left: 400px;
+    width: 1100px;
+    margin-top: 70px;
+}
+
+#reputação {
+    background-color: #E8E8E9;
+    height: 550px;
+    border:  red 1px;
+}
+
+#repu {
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 1100px;
+    height: 100%;
+    border: ed 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#repu > img {
+    border: ed 1px;
+    height: 500px;
+    margin-top: 48px;
+    margin-right: 150px;
+}
+
+.jojj {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#jojj {
+    margin-top: 50px;
+}
+
+#gas {
+    background-color: white;
+    height: 600px;
+}
+
+#gas-texto {
+    border: ed 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#gash2 {
+    width: 262px;
+    height: 44px;
+    left: 657px;
+    top: 2074px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#gasp {
+    width: 550px;
+    height: 154px;
+    left: 657px;
+    top: 2146px;
+
+    font-family: 'calistoga';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+    color: #000000;
+}
+
+#gasbutton {
+    border-radius: 20px;
+    border: 0;
+    width: 329px;
+    height: 62px;
+    left: 653px;
+    top: 2392px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+
+    background: #FFFF00;
+}
+
+#gasbutton:hover {
+    background-color: black;
+}
+
+#gasbutton > h2:hover {
+    color: white;
+}
+
+#gass {
+    border-radius: 30px;
+    width: 400px;
+    height: 380px;
+    left: 657px;
+    top: 2146px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+
+#flex-gas {
+    position: absolute;
+    margin-top: 120px;
+    border: ed 1px;
+    width: 1100px;
+    margin-left: 415px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#indice {
+    width: 422px;
+    height: 42px;
+    left: 678px;
+    top: 1123px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#usamos {
+    width: 559px;
+    height: 72px;
+    left: 678px;
+    top: 1188px;
+
+    font-family: 'calistoga';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#reclame {
+    border: solid black 2px;
+    width: 340px;
+    height: 236px;
+    border-radius: 29px;
+}
+
+#avaliaçoes {
+    background-color: #ffdc1d;
+    height: 600px;
+}
+
+#flex-avaliaçoes {
+    width: 1100px;
+    margin-left: 420px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixasava {
+    background-color: white;
+    width: 310px;
+    height: 440px;
+    margin-top: 45px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+}
+
+.jessica {
+    margin-left: 23px;
+}
+
+.caixas-flex {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 35px;
+    border: red 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 240px;
+    height: 370px;
+}
+
+#avaliaçoesh2 {
+    margin-left: 800px;
+    border: red 1px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+
+#recomendado {
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: 420px;
+    border:  red 1px;
+
+}
+
+#recomendado2 {
+    background-color: white;
+    height: 380px;
+    border: ed 0px;
+}
+
+#caixa1 {
+    width: 400px;
+    border-top: solid black 2px;
+    height: 1px;
+    margin-top: 50px;
+}
+
+#caixa2 {
+    width: 400px;
+    border-top: solid black 2px;
+    height: 1px;
+    margin-top: 50px;
+}
+
+#recomendo {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+#globo {
+    width: 218px;
+    height: 224px;
+}
+
+#sbt {
+    width: 241px;
+    height: 250px;
+}
+
+#record {
+    width: 207px;
+    height: 224px;
+}
+
+#band {
+    width: 317px;
+    height: 224px;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: 420px;
+    border: ed 0px;
+    margin-top: 40px;
+}
+
+
+footer {
+    height: 600px;
+}
+
+
+#footer {
+
+    width: 1100px;
+    border-bottom: solid white 2px;
+    height: 400px;
+    margin-left: 430px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#instagram {
+    width: 105px;
+    height: 105px;
+}
+
+#facebook {
+    width: 105px;
+    height: 100px;
+}
+
+#twitter {
+    width: 105px;
+    height: 110px;
+}
+
+#brg {
+    width: 250px;
+    height: 62px;
+    left: 595px;
+    top: 2907px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+#localização2 {
+    width: 300px;
+    height: 94px;
+    left: 1056px;
+    top: 2902px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.logo2 {
+    margin-left: 10px;
+}
+
+.links2 {
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 5px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: white;
+}
+
+#endereço {
+    width: 560px;
+    height: 155px;
+    left: 1065px;
+    top: 3148px;
+
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: #AE9A64;
+}
+
+#endereço > p {
+    margin-left: 260px;
+}
+
+#direitos-pai {
+    width: 1100px;
+    margin-left: 420px;
+    margin-top: 60px;
+    border: ed 0px;
+    display: flex;
+    
+}
+
+#direitos {
+    width: 36px;
+    height: 37px;
+}
+
+#sus {
+    width: 370px;
+    height: 38px;
+    left: 160px;
+    top: 3472px;
+    margin-left: 5px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}

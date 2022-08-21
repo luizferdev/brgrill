@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calistoga;
+    
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+
+}
+
+
+ #clockdiv{
+    font-family: sans-serif;
+    color: black;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #F2D022;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: white;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+body {
+    background-color: #0C0B0B;
+    margin: 0;
+    padding: 0;
+    font-family: 'calistoga';
+}
+
+#menu {
+    background: #F2D022;
+    border:  red 0px;
+    height: 60px;
+}
+
+#endereco-menu{
+    background-color: white; 
+    border:  black 0px;
+    color: black;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: calistoga;
+    src: url(Fonte/Calistoga-Regular.ttf);
+}
+
+#endereco {
+    border:  red 1px;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    border:  red 0px;
+    margin-left: 36%;
+    margin-top: 0;
+}
+
+li {
+    margin-right: 15px;
+    margin-top: 18px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'calistoga';
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    font-family: 'calistoga';
+    color: ;
+}
+
+#flex1 {
+    display: flex;
+    justify-content: space-between;
+    border:  red 1px;
+    width: 50%;
+    height: 527px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#brgrill {
+    width: 9%;
+    margin-left: 970px;
+    position: absolute;
+    margin-top: 150px;
+    border: ed 1px;
+}
+
+.joj {
+    margin-top: 30px;
+}
+
+strong {
+    color: #F2D022;
+}
+
+h1 {
+    width: 409px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    width: 385px;
+    height: 62px;
+    left: 0px;
+    top: 63px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: #F2D022;
+}
+
+h3 {
+    width: 374px;
+    height: 26px;
+    left: 0px;
+    top: 142px;
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+h1, h2, h3 {
+    
+}
+
+input, button {
+    width: 360px;
+    height: 48px;
+    margin-top: 20px;
+    border:  red 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color:#F2D022;
+    height: 60px;
+    border:  red 1px;
+}
+
+button:hover {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+   
+    width: 285px;
+    height: 557px;
+}
+
+#email {
+
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: uppercase;
+    border:  red 1px;
+
+    color: black;
+
+}
+
+form {
+    border:  red 1px;
+    width: 360px;
+    margin-top: 31px;
+}
+
+#flex {
+
+}
